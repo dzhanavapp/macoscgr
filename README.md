@@ -1,12 +1,20 @@
-## Create Github Repository from terminal
+# Create Github Repository
 
-`git clone https://github.com/dzhanavapp/macoscgr.git`
-`cd macoscgr`
-`npm install`
-`npm link`
+Fast create github new repository
 
-## Now you can use cgr
+## Getting Started
 
-#### Try it
+```
+git clone https://github.com/dzhanavapp/macoscgr.git
+cd macoscgr
+npm install
+npm link
+```
 
-`cgr <username> <newreponame>`
+### Now you can use cgr
+
+Try it
+
+```
+cgr <username> <newreponame>
+```

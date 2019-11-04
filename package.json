@@ -1,0 +1,22 @@
+{
+  "name": "cgr",
+  "version": "1.0.0",
+  "description": "Create github repository for Dzhanavapp",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "Dzhanavapp",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "cgr": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "read": "^1.0.7"
+  }
+}
